@@ -1,0 +1,19 @@
+{
+  "name": "note_frequency_calculator",
+  "version": "1.0.0",
+  "description": "A Note Frequency Calculator that runs in your browser. Useful for precise EQing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadhgcreedon/note-free-calc-react.git"
+  },
+  "author": "Tadhg Creedon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tadhgcreedon/note-free-calc-react/issues"
+  },
+  "homepage": "https://github.com/tadhgcreedon/note-free-calc-react#readme"
+}
