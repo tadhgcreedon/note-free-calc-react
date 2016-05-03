@@ -1,11 +1,21 @@
-$color1: #333333;
-$color2: #333333;
-$color3: #333333;
-$color4: #333333;
+// Page colours.
+$pageBackgroundColour: #333;
 
+// Global page styles.
 html, body {
   margin: 0;
   padding: 0;
   font-size: 16px;
   font-family: sans-serif;
+}
+
+// Style for document body.
+body {
+  background-color: $pageBackgroundColour;
+  font-size: 62.5%;
+}
+
+// Removes blue outline on focused form elements.
+input:focus {
+  outline: none;
 }
