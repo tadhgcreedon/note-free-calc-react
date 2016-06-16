@@ -1,5 +1,6 @@
 // Page colours.
 $pageBackgroundColour: #333;
+$bodyColor: #333;
 
 // Global page styles.
 html, body {
@@ -7,6 +8,8 @@ html, body {
   padding: 0;
   font-size: 16px;
   font-family: sans-serif;
+  color: white;
+  overflow: hidden;
 }
 
 // Style for document body.
@@ -15,7 +18,21 @@ body {
   font-size: 62.5%;
 }
 
+#calculator {
+	background-color: $bodyColor !important;
+}
+
+footer a:hover {
+	color: crimson !important;
+}
+
 // Removes blue outline on focused form elements.
 input:focus {
   outline: none;
+}
+
+#input {
+	text-transform: uppercase;
+	background-color: black;
+	color: white;
 }
