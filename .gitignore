@@ -1,2 +1,6 @@
 .sass-cache/
 *.css.map
+devserver.sh
+devserver.sh~
+style/main.css
+
