@@ -13,7 +13,7 @@ var Footer = React.createClass({
     return(
       <footer style={footerStyle}>
         <div style={footerContentStyle}>
-          <a style={footerLinkStyle} href="http://tadhgcreedon.github.io">Tadhg Creedon</a> -
+          <a style={footerLinkStyle} href="http://www.tadhgcreedon.com">Tadhg Creedon</a> -&nbsp;
           <a style={footerLinkStyle} href="https://github.com/tadhgcreedon/note-free-calc-react">Source</a> - 2016
         </div>
       </footer>
