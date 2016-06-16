@@ -23,12 +23,13 @@ var Header = React.createClass({
 var headerStyle = {
   textAlign: "center",
   color: "white",
-  backgroundColor: "rgb(24, 140, 156)",
-  padding: "3px 0 3px 0"
+  backgroundColor: "#444",
+  padding: "3px 0 3px 0",
+  height: "12%"
 };
 // Styles for the header text.
 var h1Style = {
-  fontSize: "3em"
+  fontSize: "5em"
 };
 
 //-----------EXPORT----------
